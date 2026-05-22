@@ -26,34 +26,37 @@ body {
         align-items: center;
         margin: 10px;
         padding: 15px;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: center;
 
-    }
-
-    .box {
-
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
-
-        align-items: center;
-
-        color: #fff;
-        background: #1a1a1a;
-        border: 1px solid gray;
 
     }
+
+}
+
+.box {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: row;
+    width: 450px;
+    gap: 15px;
+
+    font-size: 10px;
+    margin-left: 3px;
+
+
+    color: #fff;
+    background: #1a1a1a;
+    border: 1px solid gray;
 
 }
 
@@ -188,6 +191,57 @@ img {
     color: white;
     text-decoration: none;
 }
+
+.Mainbox {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    width: 300px;
+    font-size: 11px;
+
+}
+
+.Mainbox a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.He {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+
+}
+
+.Tra {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.Cont {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+
 
 .contact-box {
     text-align: center;
